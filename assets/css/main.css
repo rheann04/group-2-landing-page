@@ -7,7 +7,7 @@
 */
 
 /*--------------------------------------------------------------
-# Font & Color Variables
+# Font & Color VariablesCHANGES
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
@@ -19,19 +19,19 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ead3a9; /* Background color for the entire website, including individual sections */
-  --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #32353a; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #e84545; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #cbbbd4c7; /* Background color for the entire website, including individual sections */
+  --default-color: #030d16; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #1d032f; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #1c0247; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #eeeaf0; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #d1adfd; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #3a3939;  /* The default color of the main navmenu links */
   --nav-hover-color: #e84545; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-mobile-background-color: #d69464; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #3a3939; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #e84545; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
@@ -58,7 +58,7 @@
 }
 
 /*--------------------------------------------------------------
-# General Styling & Shared Classes
+# General Styling & Shared Classes TEST TEST
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
@@ -91,8 +91,8 @@ h6 {
 ------------------------------*/
 .php-email-form .error-message {
   display: none;
-  background: #df1529;
-  color: #ffffff;
+  background: #2f0249;
+  color: #e3c18b;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
@@ -215,7 +215,7 @@ h6 {
 .index-page .header {
   --background-color: rgba(255, 255, 255, 0);
   --heading-color: #ffffff;
-  --nav-color: rgba(255, 255, 255, 0.5);
+  --nav-color: rgba(173, 157, 184, 0.5);
   --nav-hover-color: #ffffff;
 }
 
@@ -443,7 +443,7 @@ h6 {
   }
 
   .mobile-nav-active .mobile-nav-toggle {
-    color: #fff;
+    color: #f9d8fb;
     position: absolute;
     font-size: 32px;
     top: 15px;
@@ -869,7 +869,7 @@ section,
 }
 
 .clients .client-logo img {
-  padding: 20px 40px;
+  padding: 10px 30px;
   max-width: 90%;
   transition: 0.3s;
   opacity: 0.5;
@@ -942,8 +942,8 @@ section,
 
 .about .icon-box {
   background-color: var(--surface-color);
-  padding: 50px 40px;
-  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  box-shadow: 0px 10px 50px rgba(82, 38, 2, 0.1);
   border-radius: 10px;
   transition: all 0.3s ease-out 0s;
 }
@@ -2682,12 +2682,6 @@ section,
   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 
 /*--------------------------------------------------------------
 # Widgets
